@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .home {
+      flex: 2;
+      padding: 20px;
+      background-color: transparent;
+    }
+
+    .container {
+      flex: 2;
+      padding: 20px;
+      background-color: transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <a href="#" class="logo">Moresh</a>
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+      </nav>
+    </div>
+  </header><br>
+  <div class="wrapper">
+    <section class="home">
+      <p class="p">
+      <h1 class="h1">Hello I'm Moresh</h1>
+      <h2 class="h2">Frontend Developer</h2>
+      <p class="p2">This is Moresh here this side!<br>
+        So happy to see you visit my Webpage<br>
+        Get to know about me header<br>
+        Want to talk? Reach Out to me :</p>
+      </p>
+      <div class="social-icons">
+        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </section>
+    <div class="container">
+      <p class="p3">
+        Hello there! I'm Moresh Mishra, a passionate learner and aspiring engineer currently pursuing my education at
+        Shree L.R. Tiwari College of Engineering. My journey in academics began at N.L. Dalmia where I laid the
+        foundation for my future endeavors.
+        Programming has always fascinated me, and I'm currently specializing in C while also proficient in languages
+        like C++, HTML, and CSS. Excited about expanding my skill set, I have my sights set on mastering JavaScript in
+        the near future.
+        Beyond the world of coding, I find joy and relaxation in the strategic realms of Chess and the fast-paced action
+        of Badminton. But my interests don't stop there—I also have a knack for unraveling the mysteries of Rubik's
+        Cubes and various other puzzles, totaling over 10 different types.
+        Driven by curiosity and a thirst for knowledge, I'm always eager to take on new challenges and explore the
+        endless possibilities that lie ahead.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
